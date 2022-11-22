@@ -44,7 +44,7 @@ ex)사용자 A와 B는 영화 a, b, c 라는 작품 3개를 보았고, 사용자
 
 ## 3. 시스템 구조
 
-![제목 없음](C:\Users\LG\Desktop\오픈소스\제목 없음.png)
+![제목 없음](https://user-images.githubusercontent.com/69784492/203237033-ef2fe43e-f459-4fb5-9fb4-8a905617d1ec.png)
 
 사용자는 React를 통해 작품을 검색하고, 검색 결과와 추천 작품을 볼 수 있다. Spring boot를 통해 사용자에게 보여줄 데이터를 주고 받고, 사용자에게 제공할 데이터를 React로 전송하여 사용자에게 보여준다.
 
