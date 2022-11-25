@@ -20,6 +20,12 @@
 
 ### 3.2 검색 시스템
 
+### 3.3 라이선스 문제
+
+사용한 소프트웨어 중 Tensorflow와 SpringBoot 의 경우 Apache2.0 라이선스를 사용하고 있고, KoNLPy는 GPL3.0, MariaDB는 GPL2.0 라이선스를 사용하고 있다.
+Apache 라이선스는 GPL 라이선스와 양립하지 못하게 되지만 GPL3.0 은 GPL2.0의 문제를 해소하여 Apache 라이선스와 양립할 수 있게 되었다.
+그러나 MariaDB의 경우 GPL 2.0 라이선스를 사용하고 있는데 MariaDB 커넥터가 LGPL 라이선스를 사용하고 있어 동적링킹되어 결합한다면 Apache 라이선스와 양립할 수 있다.
+
 ## 4. 사용된 오픈소스 소프트웨어
 
 ### 4.1 Maria DB
